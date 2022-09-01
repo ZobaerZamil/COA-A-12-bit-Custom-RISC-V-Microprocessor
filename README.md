@@ -8,6 +8,7 @@ In this project, I used Logisim and C Language for designing *12-bit-Custom-RISC
 ### *2. Assembler*
 ### *3. Processor*
 
+
 ## 1. ISA (Instruction Set Architecture)
   Firstly, I designed the ISA for 12-bit-Custom-RISC-V-Microprocessor. As I have 12 bits, so I allocate those bit carefully for R-type, I-type, J-type ISA format.
   ### (R-Type) ISA Format
@@ -28,10 +29,11 @@ In this project, I used Logisim and C Language for designing *12-bit-Custom-RISC
           |---------------|------------------|
           |     3-bit     |      9-bit       |
           
-## List of Instructions
-  ![Instructions List](https://drive.google.com/drive/my-drive "Instructions.jpg")
-
           
+## List of Instructions
+  
+  ![Instructions List](https://user-images.githubusercontent.com/72562681/187966777-076c9413-796f-4cfe-bc9f-210dd0ccd79d.jpg)
+      
  
 ## 2. Assembler
   I use C languange to make the assembler which converts the assembly instructon into Binary format and Hexa format.
