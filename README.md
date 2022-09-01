@@ -1,6 +1,6 @@
 # ***12-bit-Custom-RISC-V-Microprocessor***
 
-This is Projecet of my **Undergraduate Studies** for the ==Computer Organization And Architecture== course. 
+This is Projecet of my **Undergraduate Studies** for the ==Computer Organization And Architecture course==. 
 
 ## **Design And Building** 
 In this project, I used Logisim and C Language for designing *12-bit-Custom-RISC-V-Microprocessor* which has 3 different parts. Those are
@@ -29,7 +29,7 @@ In this project, I used Logisim and C Language for designing *12-bit-Custom-RISC
           |     3-bit     |      9-bit       |
           
 ## List of Instructions
-  ![alt text](Instructions.jpg)
+  ![Instructions List](https://drive.google.com/drive/my-drive "Instructions.jpg")
 
           
  
