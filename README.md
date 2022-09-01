@@ -1,6 +1,6 @@
 # ***12-bit-Custom-RISC-V-Microprocessor***
 
-This is Projecet of my **Undergraduate Studies** for the ==Computer Organization And Architecture course==. 
+This is Projecet of my **Undergraduate Studies** for the **Computer Organization And Architecture** course. 
 
 ## **Design And Building** 
 In this project, I used Logisim and C Language for designing *12-bit-Custom-RISC-V-Microprocessor* which has 3 different parts. Those are
@@ -36,7 +36,8 @@ In this project, I used Logisim and C Language for designing *12-bit-Custom-RISC
       
  
 ## 2. Assembler
-  I use C languange to make the assembler which converts the assembly instructon into Binary format and Hexa format.
+  My designed assembler will convert the assembly instruction into Binary format and Hexadecimal Format. I designed this assembler in C Language. Firstly, it will convert the instructions into Binary formate or machine code. It will be one instruction per line. Then it will convert that machine code into Hexadecimal format which will be helpful for my processor. After converting the instructions into Hexadecimal format as Output file(.txt), we can load that file into Logisim and simulate the 12-bit Microprocessor.  
+  
   
 ## 3. Processor
   For performing operations, I designed 12-bit Arithmetic Logic Unit and 12-bit Register file.
