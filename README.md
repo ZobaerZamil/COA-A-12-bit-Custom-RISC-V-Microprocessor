@@ -54,8 +54,8 @@ In this project, I used Logisim and C Language for designing *12-bit-Custom-RISC
 
 
 
-## *** 12-bit-Custom-RISC-V-Microprocessor Datapath (Full-Single-Cycle Datapath)***
+## *** Full-Single-Cycle Datapath***
     
-    ![A 12-bit Custom RISC-V Microprocessor Datapath](https://user-images.githubusercontent.com/72562681/188276427-d7b15599-a516-4a6c-9f29-63228d3c08d8.jpg)
+    ![Full-Single-Cycle Datapath](https://user-images.githubusercontent.com/72562681/188276427-d7b15599-a516-4a6c-9f29-63228d3c08d8.jpg)
 
   
