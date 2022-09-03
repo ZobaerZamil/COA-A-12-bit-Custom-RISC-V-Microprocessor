@@ -7,7 +7,7 @@ In this project, I used Logisim and C Language for designing *12-bit-Custom-RISC
 ### *1. ISA (Instruction Set Architecture)*
 ### *2. Assembler*
 ### *3. Processor*
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 1. ISA (Instruction Set Architecture)
   Firstly, I designed the ISA for 12-bit-Custom-RISC-V-Microprocessor. As I have 12 bits, so I allocate those bit carefully for R-type, I-type, J-type ISA format.
@@ -44,18 +44,22 @@ In this project, I used Logisim and C Language for designing *12-bit-Custom-RISC
   
 ## 3. Processor
   For performing the operations, I designed **12-bit Arithmetic Logic Unit** which perfrome arithmetic and logical operations. Here is the *12-bit ALU -* 
-          ![ALU 12-bit](https://user-images.githubusercontent.com/72562681/188276083-a113c0f8-c104-4b28-a75b-4fea5bdea27b.jpg)
+     
+   ![ALU 12-bit](https://user-images.githubusercontent.com/72562681/188276083-a113c0f8-c104-4b28-a75b-4fea5bdea27b.jpg)
+  
   
   Then I designed **12-bit Register file** which helps to write and read data in registers and calculate according to the instructions. Here is the *12-bit Register file -* 
-          ![Register File 12-bit](https://user-images.githubusercontent.com/72562681/188276215-5b2a54fe-23dc-4425-986f-dc3c47c78436.jpg)
+         
+   ![Register File 12-bit](https://user-images.githubusercontent.com/72562681/188276215-5b2a54fe-23dc-4425-986f-dc3c47c78436.jpg)
+
 
   For Automation, I designed a Control Unit, where Operation code will generate signals for that specific operation do complete the task properly. Here is the *Control Unit*  
-          ![Control Unit](https://user-images.githubusercontent.com/72562681/188276354-03922313-d905-4afc-b50b-81b0c0edc268.jpg)
+          
+   ![Control Unit](https://user-images.githubusercontent.com/72562681/188276354-03922313-d905-4afc-b50b-81b0c0edc268.jpg)
 
 
-
-## *** Full-Single-Cycle Datapath***
+## ***Full-Single-Cycle Datapath***
     
-    ![Full-Single-Cycle Datapath](https://user-images.githubusercontent.com/72562681/188276427-d7b15599-a516-4a6c-9f29-63228d3c08d8.jpg)
+   ![A 12-bit Custom RISC-V Microprocessor Datapath](https://user-images.githubusercontent.com/72562681/188276683-269c2c43-66b3-4ce8-9fd2-a0fde51a1181.jpg)
 
   
