@@ -1,6 +1,6 @@
 # ***12-bit-Custom-RISC-V-Microprocessor***
 
-This is Projecet of my **Undergraduate Studies** for the **Computer Organization And Architecture** course. 
+This is a projecet of my **Undergraduate Studies** for the **Computer Organization And Architecture** course. 
 
 ## **Design And Building** 
 In this project, I used Logisim and C Language for designing *12-bit-Custom-RISC-V-Microprocessor* which has 3 different parts. Those are
@@ -36,11 +36,26 @@ In this project, I used Logisim and C Language for designing *12-bit-Custom-RISC
       
  
 ## 2. Assembler
-  My designed assembler will convert the assembly instruction into Binary format and Hexadecimal Format. I designed this assembler in C Language. Firstly, it will convert the instructions into Binary formate or machine code. It will be one instruction per line. Then it will convert that machine code into Hexadecimal format which will be helpful for my processor. After converting the instructions into Hexadecimal format as Output file(.txt), we can load that file into Logisim and simulate the 12-bit Microprocessor.  
+  My designed assembler will convert the assembly instruction into Binary format and Hexadecimal Format. I designed this assembler in C Language. 
+    1. Firstly, it will convert the assembly instructions into Binary formate or machine code. It will be one instruction per line. 
+    2. Then it will convert that machine code into Hexadecimal format which will be helpful for my processor. 
+    3. After converting the instructions into Hexadecimal format as **Output file(.txt)**, we can load that file into *Logisim* and simulate the *12-bit Microprocessor*.  
   
   
 ## 3. Processor
-  For performing operations, I designed 12-bit Arithmetic Logic Unit and 12-bit Register file.
-  For Automation, I designed a Control Unit.
+  For performing the operations, I designed **12-bit Arithmetic Logic Unit** which perfrome arithmetic and logical operations. Here is the *12-bit ALU -* 
+          ![ALU 12-bit](https://user-images.githubusercontent.com/72562681/188276083-a113c0f8-c104-4b28-a75b-4fea5bdea27b.jpg)
+  
+  Then I designed **12-bit Register file** which helps to write and read data in registers and calculate according to the instructions. Here is the *12-bit Register file -* 
+          ![Register File 12-bit](https://user-images.githubusercontent.com/72562681/188276215-5b2a54fe-23dc-4425-986f-dc3c47c78436.jpg)
+
+  For Automation, I designed a Control Unit, where Operation code will generate signals for that specific operation do complete the task properly. Here is the *Control Unit*  
+          ![Control Unit](https://user-images.githubusercontent.com/72562681/188276354-03922313-d905-4afc-b50b-81b0c0edc268.jpg)
+
+
+
+## *** 12-bit-Custom-RISC-V-Microprocessor Datapath (Full-Single-Cycle Datapath)***
+    
+    ![A 12-bit Custom RISC-V Microprocessor Datapath](https://user-images.githubusercontent.com/72562681/188276427-d7b15599-a516-4a6c-9f29-63228d3c08d8.jpg)
 
   
