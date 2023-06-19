@@ -1,16 +1,16 @@
 # ***12-bit-Custom-RISC-V-Microprocessor***
 
-This is a projecet of my **Undergraduate Studies** for the **Computer Organization And Architecture** course. 
+This is a project of my **Undergraduate Studies** for the **Computer Organization And Architecture** course. 
 
 ## **Design And Building** 
-In this project, I used Logisim and C Language for designing *12-bit-Custom-RISC-V-Microprocessor* which has 3 different parts. Those are
+In this project, I used Logisim and C Language for designing *12-bit-Custom-RISC-V-Microprocessor*, which has 3 different parts. Those are
 ### *1. ISA (Instruction Set Architecture)*
 ### *2. Assembler*
 ### *3. Processor*
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 1. ISA (Instruction Set Architecture)
-  Firstly, I designed the ISA for 12-bit-Custom-RISC-V-Microprocessor. As I have 12 bits, so I allocate those bit carefully for R-type, I-type, J-type ISA format.
+  Firstly, I designed the ISA for the 12-bit-Custom-RISC-V-Microprocessor. As I have 12 bits, so I allocate those bits carefully for R-type, I-type, and J-type ISA format.
   ### (R-Type) ISA Format
   
           |  Op Code |    rs   |    rt   |    rd   |
@@ -36,24 +36,24 @@ In this project, I used Logisim and C Language for designing *12-bit-Custom-RISC
       
  
 ## 2. Assembler
-  My designed assembler will convert the assembly instruction into Binary format and Hexadecimal Format. I designed this assembler in C Language. 
-    1. Firstly, it will convert the assembly instructions into Binary formate or machine code. It will be one instruction per line. 
-    2. Then it will convert that machine code into Hexadecimal format which will be helpful for my processor. 
+  My designed assembler will convert the assembly instruction into Binary format and Hexadecimal Format. I created this assembler in C Language. 
+    1. First, it will convert the assembly instructions into Binary format or machine code. It will be one instruction per line. 
+    2. Then, it will convert that machine code into Hexadecimal format, which will be helpful for my processor. 
     3. After converting the instructions into Hexadecimal format as **Output file(.txt)**, we can load that file into *Logisim* and simulate the *12-bit Microprocessor*.  
   
   
 ## 3. Processor
-  For performing the operations, I designed **12-bit Arithmetic Logic Unit** which perfrome arithmetic and logical operations. Here is the *12-bit ALU -* 
+  I designed **12-bit Arithmetic Logic Unit**to perform the operations, which perform arithmetic and logical operations. Here is the *12-bit ALU -* 
      
    ![ALU 12-bit](https://user-images.githubusercontent.com/72562681/188276083-a113c0f8-c104-4b28-a75b-4fea5bdea27b.jpg)
   
   
-  Then I designed **12-bit Register file** which helps to write and read data in registers and calculate according to the instructions. Here is the *12-bit Register file -* 
+  Then I designed a **12-bit Register file**, which helps to write and read data in registers and calculate according to the instructions. Here is the *12-bit Register file -* 
          
    ![Register File 12-bit](https://user-images.githubusercontent.com/72562681/188276215-5b2a54fe-23dc-4425-986f-dc3c47c78436.jpg)
 
 
-  For Automation, I designed a Control Unit, where Operation code will generate signals for that specific operation do complete the task properly. Here is the *Control Unit*  
+  For Automation, I designed a Control Unit where the Operation code will generate signals for that specific operation to complete the task properly. Here is the *Control Unit*  
           
    ![Control Unit](https://user-images.githubusercontent.com/72562681/188276354-03922313-d905-4afc-b50b-81b0c0edc268.jpg)
 
